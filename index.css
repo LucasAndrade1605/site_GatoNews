@@ -1,0 +1,257 @@
+/*fonts*/
+input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+main p{
+    font-family: 'Raleway', sans-serif;
+}
+
+main h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+/*header*/
+
+header,
+footer{
+    background-color: rgb(57, 61, 61);
+}
+
+diV#container_header{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 15px;
+}
+
+diV#container_header picture img{
+    position: absolute;
+    margin: auto 0 auto -70px;
+    object-fit: cover;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 300px;
+}
+
+div#titulo_header{
+    padding: 15px;
+    margin-left: 5%;
+}
+
+header div h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header div h3{
+    font-family: 'jersey 20', sans-serif;
+    font-size: 25px;
+    margin-left: 35px;
+    width: 220px;
+    color: #fff;
+}
+
+nav{
+    margin: auto 0 auto 40%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+    width: 160px;
+    text-align: center;
+}
+
+nav ul li a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Main*/
+
+main{
+    background-color: #ffffffd6;
+}
+
+section#nova_noticia{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+}
+
+section picture img{
+    object-fit: cover;
+    width: 550px;
+    margin-right: 10px;
+    border-radius: 300px;
+}
+
+
+section div h2,
+section#fale_conosco h2{
+    font-size: 25px;
+    margin: 25px;
+}
+
+section#nova_noticia div p{
+    margin: 0 0 8px 25px;
+}
+
+article img{
+    object-fit: cover;
+    width: 550px;
+}
+
+/*Noticas anteriores*/
+
+div#noticias{
+    display: flex;
+}
+
+section#noticias_anteriores h2{
+    margin: 20px 0 20px 45px;
+    font-size: 35px;
+    border-bottom: #ccc 2px solid;
+}
+
+div#noticias article{
+    max-width: 550px;
+    padding: 10px;
+    margin: auto;
+    border-bottom: #ccc 2px solid;
+}
+
+article img{
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+article img:hover{
+    transform: scale(1.1);
+}
+
+article div{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+article h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+article p{
+    margin: 5px;
+}
+
+article div#botao{
+    margin-top: 10px;
+}
+
+
+article div#botao a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.758);
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+/*Fale conosco*/
+
+section#fale_conosco div#container{
+    display: flex;
+}
+
+section#fale_conosco div#container div#envie_mensagem{
+    width: 50%;
+    border-right: #ccc solid 2px;
+}
+
+section#fale_conosco div#container div#envie_mensagem div{
+    width: 50%;
+    margin: auto;
+}
+
+
+form input,
+form textarea,
+form button{
+    margin: 10px auto;
+    display: block;
+    width: 320px;
+    padding: 8px;
+    border-radius: 5px;
+    border: #ccc solid 1px;
+}
+
+form button{
+    width: 340px;
+    background-color: rgb(57, 61, 61);
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+button:hover,
+div#botao a:hover{
+    background-color: rgb(125, 133, 133);
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(125, 133, 133);
+}
+
+/*Redes sociais*/
+
+div#redes_sociais{
+    margin-left: 25px; 
+}
+
+div#redes_sociais ul li{
+    display: inline;
+    margin: 10px;
+}
+
+div#redes_sociais ul li a{
+    text-decoration: none;
+}
+
+div#redes_sociais ul li a img{
+    height: 30px;
+    object-fit: cover;
+}
+
+/*footer*/
+
+footer div{
+    padding: 14px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'jersey 20', sans-serif;
+}
+
+
+
